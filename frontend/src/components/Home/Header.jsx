@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md px-2 lg:px-28 sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-gray-800">Chitchat</h1>
+        <h1 className="text-2xl font-bold text-gray-800">SureChat</h1>
 
         <nav className="hidden md:flex space-x-6">
           <Link to={""} className="hover:text-yellow-500">
