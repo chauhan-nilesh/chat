@@ -4,7 +4,7 @@ import { useNavigate } from "react-router";
 import Loader from "../../frontend/src/components/Loader";
 import { Helmet } from "react-helmet";
 
-const socket = io(`${import.meta.env.VITE_API_URL}`)
+const socket = io(`${import.meta.env.VITE_API_URL}`);
 
 const App = () => {
     const [userData, setUserData] = useState({})
