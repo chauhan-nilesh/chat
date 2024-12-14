@@ -45,7 +45,7 @@ function CustomerRegister() {
                 email: "",
                 password: ""
             })
-            navigate('/customer-login');
+            navigate('/login');
         } else {
             toast.error('Something went wrong');
         }
@@ -67,7 +67,7 @@ function CustomerRegister() {
                             value={userData.userId}
                             onChange={handleInput}
                             required
-                            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         />
                         <input
                             type="text"
@@ -77,7 +77,7 @@ function CustomerRegister() {
                             value={userData.name}
                             onChange={handleInput}
                             required
-                            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         />
                         <input
                             type="email"
@@ -87,7 +87,7 @@ function CustomerRegister() {
                             value={userData.email}
                             onChange={handleInput}
                             required
-                            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         />
                         <input
                             type="password"
@@ -97,7 +97,7 @@ function CustomerRegister() {
                             value={userData.password}
                             onChange={handleInput}
                             required
-                            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                         />
                         <button
                             type="submit"

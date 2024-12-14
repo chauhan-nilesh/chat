@@ -9,7 +9,11 @@ import ChatMobile from "./components/ChatWindow/ChatMobile";
 import Loader from "./components/Loader";
 import BottomNavbar from "./components/BottomNavbar";
 
-const socket = io(`${import.meta.env.VITE_API_URL}`);
+// const socket = io(`${import.meta.env.VITE_API_URL}`);
+const socket = io(`${import.meta.env.VITE_API_URL}`, {
+  transports: ['polling'], // Enabling the polling transport
+});
+
 
 function App() {
   const [userData, setUserData] = useState({});
