@@ -78,9 +78,9 @@ import { userRouter } from "./routes/user.router.js";
 import { conversationRouter } from "./routes/conversation.router.js";
 import { customerRouter } from "./routes/customer.router.js";
 
-app.use("/api/user", userRouter)
-app.use("/api/conversation", conversationRouter)
-app.use("/api/customer", customerRouter)
+app.use("/api/user", userRouter);
+app.use("/api/conversation", conversationRouter);
+app.use("/api/customer", customerRouter);
 
 // Start server
 dbConnect()
