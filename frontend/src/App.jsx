@@ -3,8 +3,7 @@ import io from "socket.io-client";
 import Sidebar from "./components/Sidebar/Sidebar";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router";
-import ChatWindow from "./components/ChatWindow/ChatWindow"
-import ContactItem from "./components/Sidebar/ContactItem";
+import ChatWindow from "./components/ChatWindow/ChatWindow";
 import ChatMobile from "./components/ChatWindow/ChatMobile";
 import Loader from "./components/Loader";
 import BottomNavbar from "./components/BottomNavbar";
