@@ -12,14 +12,14 @@ import BottomNavbar from "./components/BottomNavbar";
 const socket = io("http://localhost:3000");
 
 function App() {
-  const [userData, setUserData] = useState({})
+  const [userData, setUserData] = useState({});
   const [userId, setUserId] = useState("");
   const [activeChats, setActiveChats] = useState([]);
   const [selectedChat, setSelectedChat] = useState(null);
   const [messages, setMessages] = useState([]);
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
-  const [chatLoading, setChatLoading] = useState(false)
+  const [chatLoading, setChatLoading] = useState(false);
 
   const navigate = useNavigate()
 
